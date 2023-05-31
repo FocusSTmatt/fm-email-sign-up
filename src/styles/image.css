@@ -1,0 +1,17 @@
+
+
+.desktop-signup-image {
+    width: 100%;
+}
+.mobile-signup-image {
+    width: 100%;
+    overflow: hidden;
+}
+    
+@media screen and (min-width: 768px){
+    .desktop-signup-image {
+        padding: 1em !important;
+        width: 310px !important;
+        height: 440px !important;
+    }
+}

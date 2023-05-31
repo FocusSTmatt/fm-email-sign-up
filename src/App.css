@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@400;700&display=swap');
+
+:root {
+--DarkSlateGrey: hsl(234, 29%, 20%);
+--CharcoalGrey: hsl(235, 18%, 26%);
+--Grey: hsl(231, 7%, 60%);
+--White: hsl(0, 0%, 100%);
+--Tomato: hsl(4, 100%, 67%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: rgb(63, 63, 88);
+}
+.outter-ctn-subscribe {
+  background: #fff;
+  flex-direction: column;
+  width: 400px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  border-radius: 20px;
+}
+.sign-up-ctn {
+  height: 100%;
+  padding: 1.5em;
+}
+
+@media screen and (min-width: 768px){
+  .outter-ctn-subscribe {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 440px;
+    width: 620px !important;
+    border-radius: 20px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .sign-up-ctn {
+    width: 50%;
+    max-width: 300px;
+    padding-top: 3.5em;
+  }
+}
+

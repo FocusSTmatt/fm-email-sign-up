@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@400;700&display=swap');
+
+:root {
+--DarkSlateGrey: hsl(234, 29%, 20%);
+--CharcoalGrey: hsl(235, 18%, 26%);
+--Grey: hsl(231, 7%, 60%);
+--White: hsl(0, 0%, 100%);
+--Tomato: hsl(4, 100%, 67%);
+}
+
+.stay-updated-ctn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.stay-updated-ctn h1 {
+    font-size: 40px;
+    margin-top: 0.3em;
+}
+.stay-updated-ctn p {
+    margin: 1.3em 0 1.5em 0;
+}
+
+
+p {
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.bullet {
+    margin: 0 0 1em 0;
+    display: flex;
+}
+.bullet img {
+    padding-right: 1em;
+    align-self: flex-start;
+    
+}
+.bullet p {
+    margin: 0;
+    font-size: 16px;
+    letter-spacing: 0.7px;
+}
+.bullet:nth-of-type(2){
+    margin-top: -8px;
+}
+.bullet:nth-of-type(3){
+    margin-top: -8px;
+}
+
+@media screen and (min-width: 768px){
+    p {
+        max-width: 250px;
+    }
+    .stay-updated-ctn {
+        width: 300px;
+    }
+    .stay-updated-ctn h1 {
+       padding-top: 0.5em;
+       
+    }
+    .bullet img {
+        width: 20px; 
+        padding-right: 0.5em;  
+    }
+    p, .bullet p {
+        font-size: 11px;
+        letter-spacing: normal;
+    }
+}

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@400;700&display=swap');
+
+:root {
+--DarkSlateGrey: hsl(234, 29%, 20%);
+--CharcoalGrey: hsl(235, 18%, 26%);
+--Grey: hsl(231, 7%, 60%);
+--White: hsl(0, 0%, 100%);
+--Tomato: hsl(4, 100%, 67%);
+}
+
+.email-ctn {
+    
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+}
+.label-ctn {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.label-ctn p {
+    font-size: 11px;
+    color: red;
+    font-weight: bold;
+    justify-self: flex-end;
+}
+
+.email-form label {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+.text-input, .submit-btn {
+    height: 55px;
+    border-radius: 10px;
+}
+
+.text-input {
+    border: 1px solid rgb(215, 213, 213);
+    font-size: 16px;
+    margin-bottom: 1.5em;
+    padding-left: 1.5em;
+    outline: none;
+}
+.text-input::placeholder {
+    color:rgb(161, 158, 158);
+    padding-left: 1.5em;
+}
+
+.submit-btn {
+    background: hsl(234, 29%, 20%);
+    color: #fff;
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-size: 16px;
+    border: none !important;
+}
+.active {
+    background: linear-gradient(90deg, rgba(255,94,135,1) 0%, rgba(245,124,108,1) 64%, rgba(253,108,79,1) 100%) !important;
+}
+
+@media screen and (min-width: 768px){
+    .email-ctn {
+        margin-top: 1em;
+    }
+    .label-ctn {
+        display: flex;
+        justify-content: space-between;
+    }
+    .email-form label {
+        margin: 0;
+        font-size: 8px;
+        font-weight: bold;
+        padding-bottom: 0.75em;
+    }
+    .label-ctn p {
+        font-size: 8px;
+        color: red;
+        font-weight: bold;;
+    }
+    .text-input {
+        margin-bottom: 0.75em;
+        outline: none;
+       font-size: 12px;
+       padding-left: 2em;
+    }
+    .submit-btn, .text-input {
+        height: 40px;
+        border-radius: 7px;
+    }
+    .submit-btn {
+        font-size: 11px;
+    }
+}
