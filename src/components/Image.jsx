@@ -1,5 +1,3 @@
-import React from 'react'
-import signUpIcon from '../assets/images/illustration-sign-up-desktop.svg'
 import signUpMobileImage from '../assets/images/illustration-sign-up-mobile.svg'
 import signUpDesktopImage from '../assets/images/illustration-sign-up-desktop.svg'
 import MediaQuery from "react-responsive";

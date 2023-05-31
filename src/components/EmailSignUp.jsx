@@ -9,12 +9,10 @@ function EmailSignUp({isClicked, setIsClicked, userEmail, setUserEmail}) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    console.log(userEmail)
     setIsClicked(!isClicked);
   }
   function handleClick() {
     setButtonClick(!buttonClick)
-    console.log(buttonClick)
   }
 
   function toggleInputButtonClass(){
@@ -31,8 +29,8 @@ function EmailSignUp({isClicked, setIsClicked, userEmail, setUserEmail}) {
         className='email-form'
         onSubmit={handleSubmit}>
         <div className='label-ctn'>  
-        <label>Email Address</label>
-        {buttonClick && !isClicked ? <p>Valid email required</p> : null}
+          <label>Email Address</label>
+          {buttonClick && !isClicked ? <p>Valid email required</p> : null}
         </div>
         <input
           className='text-input'

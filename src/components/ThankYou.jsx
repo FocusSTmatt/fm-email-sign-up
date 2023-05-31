@@ -11,7 +11,7 @@ function ThankYou({isClicked, userEmail}) {
         style={!isClicked ? {display: "none"} : {display: "flex"}}
     >
     <div className='thank-you-flex'>   
-        <img src={checkIcon} />
+        <img className='thank-you-check' src={checkIcon} />
         <h1>Thanks for subscribing!</h1>
         <p>A confirmation email has been sent to <b>{userEmail}</b>. Please 
         open it and click the button inside to confirm your subscription.</p>

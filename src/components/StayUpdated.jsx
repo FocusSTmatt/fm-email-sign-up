@@ -1,4 +1,3 @@
-import React from 'react'
 import checkIcon from '../assets/images/icon-list.svg'
 import '../styles/stayupdated.css'
 
